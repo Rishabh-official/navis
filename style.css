@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: font;
+    src: url(./sf-pro-text_regular.woff2);
+}
+main{
+    height: 100%;
+    width: 100%;
+    font-family: font;
+    padding: 10px;
+}
+nav{
+    height: 60px;
+    width: 100%;
+    /* background-color: #333; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+nav #nav1{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: black;
+}
+nav #nav2 a{
+    color: rgb(107, 105, 105);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 12px;
+}
+nav #nav3 button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    gap: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+nav #nav3  #s{
+    background-color: #fff;
+    color: #007bff;
+    /* font-weight: bold; */
+    border: 1px solid #007bff;
+}
+section{
+    padding: 20px;
+    height: 600px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #F6F7F9;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 150px 1fr ;
+    grid-template-areas: "top-left top-right"
+                         "bottom bottom";
+    
+}
+#top-left{
+    grid-area: top-left;
+    
+    padding: 20px;
+}
+#top-left h1{
+    font-size: 35px;
+    letter-spacing: -0.5px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+#top-right{
+    grid-area: top-right;
+    /* border-bottom: 1px solid #ccc; */
+    padding: 20px;
+    
+}
+#top-right p{
+    font-size: 12px;
+    color: gray;
+    /* line-height: 1.5; */
+}
+#top-right button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    gap: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#top-right #free{
+    background-color: #fff;
+    color: #007bff;
+    margin-left: 10px;
+    border: 1.5px solid #007bff;
+}
+
+#bottom{
+    grid-area: bottom;
+    /* padding: 20px; */
+    overflow-y: auto;
+    /* background-color: red; */
+}
+#bottom #card{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    background-image: url(./main\ banner.png);
+    background-size: cover;
+    
+}
+#number{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+#number h2{
+    font-size: 40px;
+}
+#number p{
+    font-size: 12px;
+    color: gray;
+}
+#about{
+    width: 100%;
+    height: 400px;
+    background-color:#F6F7F9;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#about1{
+    width: 50%;
+    height: 400px;
+    padding: 20px;
+}
+
+#about1 Button{
+    background-color:transparent;
+    color:black;
+    border: 1px solid black;
+    padding: 10px 15px;
+    gap: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+#about1 h4{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+#about1 p{
+    color: grey;
+    font-size: 14px;
+}
+#about2{
+    width: 50%;
+    height: 400px;
+    
+    /* margin-top: 20px; */
+    padding: 20px;
+    border-radius: 15px;
+}
+#pic{
+    height: 350px;
+    width: 100%;
+    background-image: url(./side\ pic.png);
+    background-color:#2652aa;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 15px;
+}
+#milestone{
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+    background-color:#F6F7F9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#mile1{
+    /* text-align: center; */
+    width: 40%;
+    height: 500px;
+    padding: 20px;
+} 
+#milestone #mile1 button{
+    background-color:transparent;
+    color:black;
+    border: 1px solid black;
+    padding: 10px 15px;
+    gap: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#mile2{
+    width: 60%;
+    height: 500px;
+    padding: 20px;
+}

@@ -202,7 +202,7 @@ section{
 }
 #mile1{
     /* text-align: center; */
-    width: 40%;
+    width: 50%;
     height: 500px;
     padding: 20px;
 } 
@@ -214,12 +214,283 @@ section{
     gap: 20px;
     border-radius: 20px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
+#milestone #mile1 h3{
+    font-size: 26px;
 
+}
 #mile2{
-    width: 60%;
+    width: 50%;
     height: 500px;
     padding: 20px;
+}
+
+#milestone #mile2 h6{
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#milestone #mile2 h4{
+    font-size: 18px;
+    color: rgb(66, 65, 65);
+    margin-bottom: 15px;
+}
+#milestone #mile2>p{
+    font-size: 12px;
+    color: grey;
+    margin-top:60px;
+    margin-bottom: 15px;
+}
+
+#milestone #mile2  #tech p{
+    font-size: 12px;
+    color: grey;
+    gap: 10px;
+
+}
+#expertise{
+    height: 800px;
+    width: 100%;
+    padding: 30px;
+    /* background-color: red; */
+}
+#expertise button{
+    background-color:transparent;
+    color:black;
+    border: 1px solid black;
+    padding: 10px 15px;
+    gap: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    /* margin-bottom: 80px; */
+}
+#expertise #explore #ex{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+#expertise #explore p{
+    color: grey;
+    font-size: 12px;
+}
+#expertise #employee{
+    display: flex;
+    justify-content: space-between;
+}
+#expertise #employee .worker{
+    height: 250px;
+    width: 180px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #4c4848;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(https://images.unsplash.com/photo-1562788869-4ed32648eb72?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1172);
+    background-size: cover;
+    background-position: center;
+    text-align: center; 
+}
+.worker{
+    color: white;
+
+}
+#expertise #employee {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+}
+#connect{
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+    /* background-color:#F6F7F9; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+}
+#connect #connect1{
+    width: 50%;
+    height: 400px;
+    padding: 20px;
+    padding: 40px;
+}
+#connect #connect2{
+    width: 50%;
+    height: 400px;
+    padding: 20px;
+}
+#connect #con1 h3{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+#connect button{
+    background-color:transparent;
+    color:black;
+    border: 1px solid black;
+    padding: 10px 15px;
+    gap: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#connect h4{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#connect #connect1 p{
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: grey;
+}
+#connect #connect1 h6{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+#connect #connect1 i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+#connect #connect2 #pic1{
+    height: 360px;
+    width: 400px;
+    border-radius: 10px;
+    background-image: url(./location.png);
+    background-position: center;
+    background-size: cover;
+}
+#ceo{
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+    /* background-color:#F6F7F9; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+}
+#ceo #ceo1{
+    width: 50%;
+    height: 400px;
+    padding: 20px;
+}
+#ceo #ceo2{
+    width: 50%;
+    height: 400px;
+    padding: 20px;
+}
+#ceo #ceo1 #logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+#ceo #ceo1 #logo i{
+    color: #007bff;
+}
+#ceo1 p{
+    margin-top: 20px    ;
+    font-size: 14px;
+    /* color: grey; */
+}
+#ceo #ceo1 h3{
+    margin-top: 90px;
+    font-size: 18px;
+}
+span{
+    color: grey;
+}
+#contact{
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+    background-color:#232323;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 300px 1fr 1fr 1fr;
+    grid-template-rows: 1fr 40px;
+    grid-template-areas: "col1 col2 col3 col4"
+                          "lang copy copy social";
+}
+#col1{
+    grid-area: col1;
+    /* background-color: red; */
+    padding: 15px;
+}
+#col1 h4{
+    margin: 20px;
+    font-size: 20px;
+}
+#col1 input {
+    padding: 6px 6px;
+    border-radius: 20px;
+    border: none;
+
+}
+#head{
+    display: flex;
+    align-items: center;
+    
+    gap: 10px;
+}
+#col1 button{
+    padding: 6px 6px;
+    border-radius: 20px;
+    border: none;
+    background-color:#007bff;
+    color: white;
+}
+#col2{
+    grid-area: col2;
+    /* background-color: rgb(21, 146, 34); */
+    line-height: 2.5;
+    font-size: 12px;
+}
+#col3{
+    grid-area: col3;
+    /* background-color: rgb(146, 209, 19); */
+    line-height: 2.5;
+    font-size: 12px;
+}
+#col4{
+    grid-area: col4;
+    /* background-color: rgb(74, 5, 45); */
+    line-height: 2.5;
+    font-size: 12px;
+}
+#lang{
+    grid-area: lang;
+    /* background-color: rgb(206, 103, 6); */
+    padding: 15px;
+    font-size: 12px;
+}
+#copy{
+    grid-area: copy;
+    /* background-color: rgb(31, 19, 196); */
+    line-height: 2.5;
+    font-size: 12px;
+}
+#social{
+    grid-area: social;
+    /* background-color: rgb(11, 183, 183); */
+    
+}
+#social i{
+    margin-right: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 4px;
+    border: 1px solid white;
 }

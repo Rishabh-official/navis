@@ -18,7 +18,7 @@ main{
     padding: 10px;
 }
 nav{
-    height: 60px;
+    height: 100px;
     width: 100%;
     /* background-color: #333; */
     color: white;
@@ -37,14 +37,15 @@ nav #nav2 a{
     color: rgb(107, 105, 105);
     text-decoration: none;
     margin-left: 20px;
-    font-size: 12px;
+    font-size: 16px;
 }
 nav #nav3 button{
     background-color: #007bff;
     color: white;
     border: none;
-    padding: 8px 12px;
+    padding: 10px 14px;
     gap: 10px;
+    font-size: 15px;
     border-radius: 20px;
     cursor: pointer;
 }
@@ -56,13 +57,13 @@ nav #nav3  #s{
 }
 section{
     padding: 20px;
-    height: 600px;
+    height: 800px;
     width: 100%;
     border-radius: 20px;
     background-color: #F6F7F9;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 400px 1fr;
     grid-template-rows: 150px 1fr ;
     grid-template-areas: "top-left top-right"
                          "bottom bottom";
@@ -74,7 +75,7 @@ section{
     padding: 20px;
 }
 #top-left h1{
-    font-size: 35px;
+    font-size: 45px;
     letter-spacing: -0.5px;
     font-weight: 100;
     margin-bottom: 10px;
@@ -87,7 +88,7 @@ section{
     
 }
 #top-right p{
-    font-size: 12px;
+    font-size: 15px;
     color: gray;
     /* line-height: 1.5; */
 }
@@ -97,6 +98,7 @@ section{
     border: none;
     padding: 10px 15px;
     gap: 20px;
+    font-size: 16px;
     border-radius: 20px;
     cursor: pointer;
     margin-top: 20px;
@@ -125,22 +127,22 @@ section{
 }
 #number{
     width: 100%;
-    height: 200px;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     text-align: center;
 }
 #number h2{
-    font-size: 40px;
+    font-size: 60px;
 }
 #number p{
-    font-size: 12px;
+    font-size: 15px;
     color: gray;
 }
 #about{
     width: 100%;
-    height: 400px;
+    height: 600px;
     background-color:#F6F7F9;
     margin-top: 20px;
     padding: 20px;
@@ -151,7 +153,7 @@ section{
 }
 #about1{
     width: 50%;
-    height: 400px;
+    height: 600px;
     padding: 20px;
 }
 
@@ -161,29 +163,30 @@ section{
     border: 1px solid black;
     padding: 10px 15px;
     gap: 20px;
+    font-size: 22px;
     border-radius: 20px;
     cursor: pointer;
     margin-top: 20px;
     margin-bottom: 80px;
 }
 #about1 h4{
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 30px;
 }
 #about1 p{
     color: grey;
-    font-size: 14px;
+    font-size: 16px;
 }
 #about2{
     width: 50%;
-    height: 400px;
+    height: 600px;
     
     /* margin-top: 20px; */
     padding: 20px;
     border-radius: 15px;
 }
 #pic{
-    height: 350px;
+    height: 550px;
     width: 100%;
     background-image: url(./side\ pic.png);
     background-color:#2652aa;
@@ -192,7 +195,7 @@ section{
     border-radius: 15px;
 }
 #milestone{
-    height: 500px;
+    height: 700px;
     width: 100%;
     border-radius: 20px;
     background-color:#F6F7F9;
@@ -203,7 +206,7 @@ section{
 #mile1{
     /* text-align: center; */
     width: 50%;
-    height: 500px;
+    height: 600px;
     padding: 20px;
 } 
 #milestone #mile1 button{
@@ -212,13 +215,14 @@ section{
     border: 1px solid black;
     padding: 10px 15px;
     gap: 20px;
+    font-size: 18px;
     border-radius: 20px;
     cursor: pointer;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 #milestone #mile1 h3{
-    font-size: 26px;
+    font-size: 36px;
 
 }
 #mile2{
@@ -229,29 +233,29 @@ section{
 
 #milestone #mile2 h6{
     display: inline-block;
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 #milestone #mile2 h4{
-    font-size: 18px;
+    font-size: 25px;
     color: rgb(66, 65, 65);
     margin-bottom: 15px;
 }
 #milestone #mile2>p{
-    font-size: 12px;
+    font-size: 16px;
     color: grey;
     margin-top:60px;
     margin-bottom: 15px;
 }
 
 #milestone #mile2  #tech p{
-    font-size: 12px;
+    font-size: 16px;
     color: grey;
     gap: 10px;
 
 }
 #expertise{
-    height: 800px;
+    height: 1100px;
     width: 100%;
     padding: 30px;
     /* background-color: red; */
@@ -262,6 +266,7 @@ section{
     border: 1px solid black;
     padding: 10px 15px;
     gap: 20px;
+    font-size: 18px;
     border-radius: 20px;
     cursor: pointer;
     margin-top: 20px;
@@ -275,15 +280,15 @@ section{
 }
 #expertise #explore p{
     color: grey;
-    font-size: 12px;
+    font-size: 16px;
 }
 #expertise #employee{
     display: flex;
     justify-content: space-between;
 }
 #expertise #employee .worker{
-    height: 250px;
-    width: 180px;
+    height: 350px;
+    width: 280px;
     margin-right: 10px;
     margin-bottom: 10px;
     background-color: #4c4848;
@@ -304,7 +309,7 @@ section{
     padding: 60px;
 }
 #connect{
-    height: 400px;
+    height: 600px;
     width: 100%;
     border-radius: 20px;
     /* background-color:#F6F7F9; */
@@ -316,17 +321,17 @@ section{
 }
 #connect #connect1{
     width: 50%;
-    height: 400px;
+    height: 600px;
     padding: 20px;
     padding: 40px;
 }
 #connect #connect2{
     width: 50%;
-    height: 400px;
+    height: 600px;
     padding: 20px;
 }
-#connect #con1 h3{
-    font-size: 26px;
+#connect #connect1 h4{
+    font-size: 36px;
     margin-bottom: 20px;
 }
 #connect button{
@@ -335,39 +340,41 @@ section{
     border: 1px solid black;
     padding: 10px 15px;
     gap: 20px;
+    font-size: 18px;
     border-radius: 20px;
     cursor: pointer;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 #connect h4{
-    font-size: 25px;
+    font-size: 35px;
     margin-bottom: 15px;
 }
 #connect #connect1 p{
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 15px;
     color: grey;
 }
 #connect #connect1 h6{
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 400;
     margin-bottom: 5px;
 }
 #connect #connect1 i{
-    font-size: 20px;
+    font-size: 32px;
     margin-right: 10px;
 }
 #connect #connect2 #pic1{
-    height: 360px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     border-radius: 10px;
+    margin-left: 80px;
     background-image: url(./location.png);
     background-position: center;
     background-size: cover;
 }
 #ceo{
-    height: 400px;
+    height: 600px;
     width: 100%;
     border-radius: 20px;
     /* background-color:#F6F7F9; */
@@ -379,37 +386,38 @@ section{
 }
 #ceo #ceo1{
     width: 50%;
-    height: 400px;
+    height: 600px;
     padding: 20px;
 }
 #ceo #ceo2{
     width: 50%;
-    height: 400px;
+    height: 600px;
     padding: 20px;
 }
 #ceo #ceo1 #logo{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 40px;
 }
 #ceo #ceo1 #logo i{
     color: #007bff;
+    font-size: 20px;
 }
 #ceo1 p{
-    margin-top: 20px    ;
-    font-size: 14px;
+    margin-top: 40px    ;
+    font-size: 18px;
     /* color: grey; */
 }
 #ceo #ceo1 h3{
-    margin-top: 90px;
-    font-size: 18px;
+    margin-top: 150px;
+    font-size: 28px;
 }
 span{
     color: grey;
 }
 #contact{
-    height: 400px;
+    height: 500px;
     width: 100%;
     border-radius: 20px;
     background-color:#232323;
@@ -431,7 +439,7 @@ span{
 }
 #col1 h4{
     margin: 20px;
-    font-size: 20px;
+    font-size: 25px;
 }
 #col1 input {
     padding: 6px 6px;
@@ -456,31 +464,31 @@ span{
     grid-area: col2;
     /* background-color: rgb(21, 146, 34); */
     line-height: 2.5;
-    font-size: 12px;
+    font-size: 16px;
 }
 #col3{
     grid-area: col3;
     /* background-color: rgb(146, 209, 19); */
     line-height: 2.5;
-    font-size: 12px;
+    font-size: 16px;
 }
 #col4{
     grid-area: col4;
     /* background-color: rgb(74, 5, 45); */
     line-height: 2.5;
-    font-size: 12px;
+    font-size: 16px;
 }
 #lang{
     grid-area: lang;
     /* background-color: rgb(206, 103, 6); */
     padding: 15px;
-    font-size: 12px;
+    font-size: 16px;
 }
 #copy{
     grid-area: copy;
     /* background-color: rgb(31, 19, 196); */
     line-height: 2.5;
-    font-size: 12px;
+    font-size: 16px;
 }
 #social{
     grid-area: social;
@@ -489,7 +497,7 @@ span{
 }
 #social i{
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 50%;
     padding: 4px;
     border: 1px solid white;
